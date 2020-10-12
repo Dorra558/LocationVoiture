@@ -95,7 +95,7 @@
    
    .description {
        font-family: 'Poppins', sans-serif;
-       font-size: 1.3em;
+       font-size: 1.1em;
        width: 90%;
        height: 40%;
        text-align: center;
@@ -127,14 +127,14 @@
    #travel {
        color: teal;
        font-weight: bold;
-       font-size: 1.5em;
+       font-size: 1.2em;
        font-style: italic;
    }
    
    #qst {
        color: #31AC05;
        font-weight: bold;
-       font-size: 1.5em;
+       font-size: 1.2em;
    }
    /*****************************************Véhicules******************************************************/
    
@@ -177,5 +177,53 @@
        font-weight: bold;
        font-size: 1.2em;
        font-family: poppins;
-       color: red;
+       color: greenyellow;
+   }
+   
+   .card {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       max-width: 300px;
+       text-align: center;
+       font-family: arial;
+   }
+   
+   .price {
+       color: rgb(37, 37, 37);
+       font-size: 22px;
+   }
+   
+   .card button {
+       border: none;
+       outline: 0;
+       padding: 12px;
+       color: white;
+       background-color: #000;
+       text-align: center;
+       cursor: pointer;
+       width: 100%;
+       font-size: 18px;
+   }
+   
+   .container2 {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-bottom: 10px;
+       margin-top: 10px;
+   }
+   
+   .container3 {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-bottom: 10px;
+       margin-top: 10px;
+   }
+   
+   .container4 {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       margin-bottom: 10px;
+       margin-top: 10px;
    }
