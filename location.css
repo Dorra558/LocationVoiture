@@ -1,0 +1,181 @@
+   body {
+       background-color: #f3f2f2;
+       margin-left: 10px;
+   }
+   
+   .main-menu {
+       list-style-type: none;
+       background-color: #ffffff;
+       padding-left: 40rem;
+       height: 100px;
+   }
+   
+   #container {
+       position: -webkit-sticky;
+       /* Safari */
+       position: sticky;
+       top: 0;
+       z-index: 1;
+       box-shadow: 2px 3px 2px -2px rgba(0, 0, 0, .2);
+   }
+   
+   li {
+       display: inline-block;
+       /* float: right;*/
+   }
+   
+   li a {
+       display: block;
+       color: #494848;
+       text-align: center;
+       padding: 30px;
+       text-decoration: none;
+       font-family: sans-serif;
+       font-size: 1.3em;
+   }
+   
+   li a:hover:not(.active) {
+       color: #26C05A;
+   }
+   
+   .active {
+       background-color: #4CAF50;
+   }
+   
+   .logo {
+       width: 90px;
+       position: absolute;
+       left: 20px;
+       z-index: 2;
+   }
+   
+   .back {
+       width: 100%;
+       height: 70%;
+       margin: 0 0 10px 0;
+   }
+   
+   .prov {
+       color: #080808;
+       font-weight: bold;
+       font-family: cursive;
+       position: absolute;
+       top: 300px;
+       width: 600px;
+       height: 400px;
+       font-size: 2.5em;
+       padding-left: 100px;
+       padding-bottom: 80px;
+       line-height: 200%;
+   }
+   
+   #desc {
+       color: yellowgreen;
+       font-weight: bold;
+   }
+   
+   .container {
+       display: flex;
+       justify-content: space-around;
+       background-color: yellowgreen;
+       margin-left: 60px;
+       margin-right: 60px;
+   }
+   
+   #dep {
+       margin-bottom: 40px;
+   }
+   
+   span {
+       color: white;
+       font-size: 1.1em;
+       font-weight: bold;
+       padding-right: 5px;
+   }
+   
+   .description {
+       font-family: 'Poppins', sans-serif;
+       font-size: 1.3em;
+       width: 90%;
+       height: 40%;
+       text-align: center;
+       padding-left: 60px;
+       line-height: 220%;
+       padding-top: 30px;
+   }
+   
+   form {
+       margin-top: 30px;
+       margin-bottom: 30px;
+       padding: 60px;
+   }
+   
+   .button {
+       background-color: #e9e505;
+       position: absolute;
+       border-radius: 40px;
+       width: 160px;
+       height: 67px;
+       bottom: 100 px;
+       left: 1030px;
+       color: rgb(49, 47, 47);
+       font-size: 1.4em;
+       top: 1120px;
+       font-weight: bold;
+   }
+   
+   #travel {
+       color: teal;
+       font-weight: bold;
+       font-size: 1.5em;
+       font-style: italic;
+   }
+   
+   #qst {
+       color: #31AC05;
+       font-weight: bold;
+       font-size: 1.5em;
+   }
+   /*****************************************Véhicules******************************************************/
+   
+   .backg {
+       width: 100%;
+       left: 20px;
+       right: 20px;
+       box-shadow: 2px 3px 2px -2px rgba(0, 0, 0, .2);
+   }
+   
+   .way {
+       font-size: 1.9em;
+       font-weight: bold;
+       font-family: 'Commissioner', sans-serif;
+       padding-left: 200px;
+       position: absolute;
+       top: 140px;
+   }
+   
+   .para {
+       background-color: white;
+       font-family: 'Chilanka', cursive;
+       font-size: 1.4em;
+       line-height: 220%;
+       margin: 30px 80px 0px 80px;
+   }
+   
+   .container1 {
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .catégo {
+       margin-top: px;
+       font-family: 'Poppins', sans-serif;
+       font-size: 1.1em;
+   }
+   
+   #place {
+       font-weight: bold;
+       font-size: 1.2em;
+       font-family: poppins;
+       color: red;
+   }
