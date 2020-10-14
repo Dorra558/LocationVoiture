@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!---------------------------------navbar----------------------------------------->
     <nav id="container">
         <img class="logo" src="logo.png" alt="logo">
         <ul class="main-menu">
@@ -26,11 +27,14 @@
     <div class="prov">
         <p> Locations de voitures- <span id="desc"> Rechargerz</span>, <span id="desc"> Comparez </span> et <span id="desc"> faites</span> de vraies économies! </p>
     </div>
-    <div class="container">
 
+
+
+    <!--------------------------------Réservation------------------------------------------------->
+    <div class="container">
         <div class="agence">
             <form>
-                <label for="depar" id="dep"> <span> Prise de véhicule</span></label><br>
+                <label for="depar"> <span> Prise de véhicule</span></label><br>
                 <select name="pris" id="dep">
                 <option value="" disabled selected hidden>Séléctionner une agence</option>
                 <option value="carthage">Aéroport Tunis Carthage</option>
@@ -41,8 +45,8 @@
                 <option value="Tozeur">Aéroport Tozeur</option>
                 <option value="gafsa">Aéroport Gafsa</option>
               </select><br>
-                <span> Retour de véhicule </span><br>
-                <select name="retoure">
+                <label for="depar"> <span> Retour de véhicule </span></label><br>
+                <select name="retoure" id="dep">
                   <option value="" disabled selected hidden>Séléctionner une agence</option>
                   <option value="carthage">Aéroport Tunis Carthage</option>
                   <option value="monastir">Aéroport Monastir</option>
@@ -58,20 +62,29 @@
         <div class="date">
             <form>
                 <label for="depa" id="dep"><span> Départ</span></label>
-                <input type="date" id="dep" name="départ" min="2020-10-13"> à
-                <input type="time"><br>
+                <input type="date" id="dep" name="départ" min="2020-10-13"> <span>à</span>
+                <input type="time" id="tim"><br>
                 <label for="retou" id="dep"><span> Retour</span></label>
-                <input type="date" id="dep" name="retour" min="2020-10-13"> à
-                <input type="time"><br>
+                <input type="date" id="dep" name="retour" min="2020-10-13"><span>à</span>
+                <input type="time" id="tim"><br>
             </form>
         </div>
         <input class="button" type="button" value="C'est parti">
     </div>
     <hr>
+
+
+
+
+    <!----------------------------description Agence------------------------------------------------------->
+
     <p class="description">Agence location de voiture en Tunisie,<span id="travel"> Traveling Way </span> vous offre ses services de location avec une sélection de véhicules de luxe à des prix pas cher. <br>
         <span id="qst"> Vous êtes à la recherche d’une offre spéciale de location de voiture ? </span>Visitez <span id="travel"> Traveling Way </span> et profitez de nos dernières prestations exceptionnelles, accessibles partout en Tunisie : Notre agence
         vous assure une vaste gamme de véhicules qui s’adaptent à tous vos besoins.</p>
 
+
+
+    <!----------------------------Footer--------------------------------------------------------->
     <div class="footer">
         <footer>
             <img id="copyright" src="copy.png" alt="copyright">
